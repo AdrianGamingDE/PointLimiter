@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Includes">
+      <UniqueIdentifier>{0b031b58-b8eb-4423-8b53-9c96a26d500d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\SQLiteCpp-master\src\Backup.cpp">
+      <Filter>Quelldateien\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SQLiteCpp-master\src\Column.cpp">
+      <Filter>Quelldateien\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SQLiteCpp-master\src\Database.cpp">
+      <Filter>Quelldateien\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SQLiteCpp-master\src\Exception.cpp">
+      <Filter>Quelldateien\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SQLiteCpp-master\sqlite3\sqlite3.c">
+      <Filter>Quelldateien\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SQLiteCpp-master\src\Statement.cpp">
+      <Filter>Quelldateien\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SQLiteCpp-master\src\Transaction.cpp">
+      <Filter>Quelldateien\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLimiter.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
